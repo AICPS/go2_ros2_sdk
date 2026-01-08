@@ -371,7 +371,7 @@ class Go2DriverNode(Node):
         """Processing lidar for CycloneDDS"""
         # You can add processing for CycloneDDS here if needed
         pass
-
+32523
     async def connect_robots(self) -> None:
         """Connect to robots"""
         if self.config.conn_type == 'webrtc':
